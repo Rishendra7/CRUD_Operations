@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
-function Navbar() {
-  return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
-  );
+class Navbar extends React.Component{
+    render(){
+        return(
+            <div className="navbar">
+                <h1>Navbar</h1>
+            </div>
+        )
+    }
 }
 
 export default Navbar;

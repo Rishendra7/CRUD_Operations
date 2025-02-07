@@ -1,35 +1,6 @@
-// import React, { Component } from 'react'
-
-//  class CBCStateEx extends Component {
-//     constructor(){
-//         super();
-//         this.state={
-//             username: "Shan"
-//         }
-//     }
-//     ChangeName=()=>{
-//         this.setState({username: "Rishi"})
-//     }
-//   render() {
-//     console.log(this);
-//     return (
-//       <div>CBCStaeEx
-//         <h1>{this.state.username}</h1>
-//         <button onClick={this.ChangeName}>Click to change</button>
-//       </div>
-//     )
-//   }
-// }
-// export default CBCStateEx
-
-
-
-//Counter Example:-
-
 import React, { Component } from 'react'
-// import '../Stateexamples/Cbcstateex.css';
-import './Cbstateex.css';
- class CBCStateEx extends Component {
+import "./Cbcstateex.css";
+ class CounterEx extends Component {
     constructor(){
         super();
         this.state={
@@ -55,7 +26,7 @@ reset=()=>{
   render() {
     console.log(this);
     return (
-      <div className='Cbstateex'>
+      <div className='cbcstate'>
 
         {/* <h1>{this.state.username}</h1>
         <button onClick={this.changeName}>Update the State</button> */}
@@ -70,4 +41,4 @@ reset=()=>{
     )
   }
 }
-export default CBCStateEx;
+export default CounterEx;
