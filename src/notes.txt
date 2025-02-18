@@ -30,3 +30,12 @@ Routing in react:-
 
 - axios library to fetch the data from the api.
 - npm install axios
+
+
+
+Redux library:-
+***************
+- redux is a js library used for sate management in js applications such as react, angular, vue etc..
+- redux is more supportive in ractjs, beacuse redux is also having unidirectional data flow like reactjs.
+- redux is a third party library, we have to install it in react application.
+    - npm install redux react-redux.
